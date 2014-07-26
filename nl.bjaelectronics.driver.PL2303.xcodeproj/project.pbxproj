@@ -8,16 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		B4C788EA15E7E6CD007B754A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4C788E815E7E6CD007B754A /* InfoPlist.strings */; };
-		B4C788EC15E7E6CD007B754A /* PL2303.c in Sources */ = {isa = PBXBuildFile; fileRef = B4C788EB15E7E6CD007B754A /* PL2303.c */; };
+		B4C788EC15E7E6CD007B754A /* PL2303.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4C788EB15E7E6CD007B754A /* PL2303.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B4C788E015E7E6CD007B754A /* PL2303.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PL2303.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4C788E015E7E6CD007B754A /* nl.bjaelectronics.driver.PL2303.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nl.bjaelectronics.driver.PL2303.kext; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4C788E415E7E6CD007B754A /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = System/Library/Frameworks/Kernel.framework; sourceTree = SDKROOT; };
-		B4C788E715E7E6CD007B754A /* PL2303-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PL2303-Info.plist"; sourceTree = "<group>"; };
+		B4C788E715E7E6CD007B754A /* nl.bjaelectronics.driver.PL2303-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "nl.bjaelectronics.driver.PL2303-Info.plist"; sourceTree = "<group>"; };
 		B4C788E915E7E6CD007B754A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B4C788EB15E7E6CD007B754A /* PL2303.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PL2303.c; sourceTree = "<group>"; };
-		B4C788ED15E7E6CD007B754A /* PL2303-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PL2303-Prefix.pch"; sourceTree = "<group>"; };
+		B4C788EB15E7E6CD007B754A /* PL2303.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PL2303.cpp; sourceTree = "<group>"; };
+		B4C788ED15E7E6CD007B754A /* nl.bjaelectronics.driver.PL2303-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "nl.bjaelectronics.driver.PL2303-Prefix.pch"; sourceTree = "<group>"; };
+		B4C788F315E7E6F1007B754A /* PL2303.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PL2303.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +44,7 @@
 		B4C788E115E7E6CD007B754A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B4C788E015E7E6CD007B754A /* PL2303.kext */,
+				B4C788E015E7E6CD007B754A /* nl.bjaelectronics.driver.PL2303.kext */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,8 +68,9 @@
 		B4C788E515E7E6CD007B754A /* PL2303 */ = {
 			isa = PBXGroup;
 			children = (
-				B4C788EB15E7E6CD007B754A /* PL2303.c */,
+				B4C788EB15E7E6CD007B754A /* PL2303.cpp */,
 				B4C788E615E7E6CD007B754A /* Supporting Files */,
+				B4C788F315E7E6F1007B754A /* PL2303.h */,
 			);
 			path = PL2303;
 			sourceTree = "<group>";
@@ -76,9 +78,9 @@
 		B4C788E615E7E6CD007B754A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B4C788E715E7E6CD007B754A /* PL2303-Info.plist */,
+				B4C788E715E7E6CD007B754A /* nl.bjaelectronics.driver.PL2303-Info.plist */,
 				B4C788E815E7E6CD007B754A /* InfoPlist.strings */,
-				B4C788ED15E7E6CD007B754A /* PL2303-Prefix.pch */,
+				B4C788ED15E7E6CD007B754A /* nl.bjaelectronics.driver.PL2303-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -96,9 +98,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B4C788DF15E7E6CD007B754A /* PL2303 */ = {
+		B4C788DF15E7E6CD007B754A /* nl.bjaelectronics.driver.PL2303 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4C788F015E7E6CD007B754A /* Build configuration list for PBXNativeTarget "PL2303" */;
+			buildConfigurationList = B4C788F015E7E6CD007B754A /* Build configuration list for PBXNativeTarget "nl.bjaelectronics.driver.PL2303" */;
 			buildPhases = (
 				B4C788DA15E7E6CD007B754A /* Sources */,
 				B4C788DB15E7E6CD007B754A /* Frameworks */,
@@ -110,9 +112,9 @@
 			);
 			dependencies = (
 			);
-			name = PL2303;
+			name = nl.bjaelectronics.driver.PL2303;
 			productName = PL2303;
-			productReference = B4C788E015E7E6CD007B754A /* PL2303.kext */;
+			productReference = B4C788E015E7E6CD007B754A /* nl.bjaelectronics.driver.PL2303.kext */;
 			productType = "com.apple.product-type.kernel-extension";
 		};
 /* End PBXNativeTarget section */
@@ -121,10 +123,10 @@
 		B4C788D515E7E6CD007B754A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0440;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Sourceforge.net;
 			};
-			buildConfigurationList = B4C788D815E7E6CD007B754A /* Build configuration list for PBXProject "PL2303" */;
+			buildConfigurationList = B4C788D815E7E6CD007B754A /* Build configuration list for PBXProject "nl.bjaelectronics.driver.PL2303" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -136,7 +138,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B4C788DF15E7E6CD007B754A /* PL2303 */,
+				B4C788DF15E7E6CD007B754A /* nl.bjaelectronics.driver.PL2303 */,
 			);
 		};
 /* End PBXProject section */
@@ -167,7 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4C788EC15E7E6CD007B754A /* PL2303.c in Sources */,
+				B4C788EC15E7E6CD007B754A /* PL2303.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,9 +191,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -208,6 +210,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -216,9 +219,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -228,6 +231,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -235,17 +239,20 @@
 		B4C788F115E7E6CD007B754A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application: Mark Carey (88FC26PL93)";
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PL2303/PL2303-Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
-				INFOPLIST_FILE = "PL2303/PL2303-Info.plist";
-				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				GCC_PREFIX_HEADER = "PL2303/nl.bjaelectronics.driver.PL2303-Prefix.pch";
+				GCC_VERSION = "";
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = YES;
+				INFOPLIST_FILE = "PL2303/nl.bjaelectronics.driver.PL2303-Info.plist";
 				MODULE_NAME = net.sourceforge.pl2303.PL2303;
-				MODULE_START = PL2303_start;
-				MODULE_STOP = PL2303_stop;
+				MODULE_START = 0;
+				MODULE_STOP = 0;
 				MODULE_VERSION = 1.0.0d1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = nl.bjaelectronics.driver.PL2303;
 				WRAPPER_EXTENSION = kext;
 			};
 			name = Debug;
@@ -253,17 +260,20 @@
 		B4C788F215E7E6CD007B754A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application: Mark Carey (88FC26PL93)";
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PL2303/PL2303-Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
-				INFOPLIST_FILE = "PL2303/PL2303-Info.plist";
-				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				GCC_PREFIX_HEADER = "PL2303/nl.bjaelectronics.driver.PL2303-Prefix.pch";
+				GCC_VERSION = "";
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = YES;
+				INFOPLIST_FILE = "PL2303/nl.bjaelectronics.driver.PL2303-Info.plist";
 				MODULE_NAME = net.sourceforge.pl2303.PL2303;
-				MODULE_START = PL2303_start;
-				MODULE_STOP = PL2303_stop;
+				MODULE_START = 0;
+				MODULE_STOP = 0;
 				MODULE_VERSION = 1.0.0d1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = nl.bjaelectronics.driver.PL2303;
 				WRAPPER_EXTENSION = kext;
 			};
 			name = Release;
@@ -271,7 +281,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B4C788D815E7E6CD007B754A /* Build configuration list for PBXProject "PL2303" */ = {
+		B4C788D815E7E6CD007B754A /* Build configuration list for PBXProject "nl.bjaelectronics.driver.PL2303" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B4C788EE15E7E6CD007B754A /* Debug */,
@@ -280,13 +290,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4C788F015E7E6CD007B754A /* Build configuration list for PBXNativeTarget "PL2303" */ = {
+		B4C788F015E7E6CD007B754A /* Build configuration list for PBXNativeTarget "nl.bjaelectronics.driver.PL2303" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B4C788F115E7E6CD007B754A /* Debug */,
 				B4C788F215E7E6CD007B754A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
