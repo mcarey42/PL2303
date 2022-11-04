@@ -1,7 +1,10 @@
+***THIS IS NO LONGER MAINTAINED AS THE FOLKS AT THE MANUFACTURER HAVE DONE A LOVELY JOB OF FIXING AND UPDATING.***
+***THIS REPO IS PRESERVED FOR HISTORICAL PURPOSES ONLY!***
+
 PL2303
 ======
 
-This is an Open Source PL2303 driver for recent versions of Mac OS X since 10.8.
+This is an Open Source PL2303 driver for recent versions of Mac OS X around 10.8-10.10.
 
 This is a derivative work of BJA Electronics, Jeroen Arnoldus (opensource@bja-electronics.nl) nl.bjaelectronics.driver.PL2303 project.  
 
